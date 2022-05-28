@@ -1,0 +1,11 @@
+.review-item-details-container {
+    display: flex;
+    border: 1px solid #000;
+    margin-bottom: 16px;
+    justify-content: space-between;
+    padding: 10px;
+}
+.review-item-details-container img {
+    width: 90px;
+    height: 90px;
+}

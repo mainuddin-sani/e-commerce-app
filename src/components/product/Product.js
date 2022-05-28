@@ -15,6 +15,7 @@ const Product = (props) => {
                 
             </div>
             <button className='btn' onClick={()=>props.addToCartHandler(props.product)}> Add to Cart</button>
+            <button className='btn' onClick={()=>props.cartRemoved(props.product)}> Removed to Cart</button>
         </div>
     );
 };
